@@ -1,6 +1,11 @@
-import 'package:dart_basic/lamda.dart' as lamda;
+import 'package:dart_basic/mixin.dart';
 
 void main(List<String> arguments) {
-  lamda.sayHit();
-  print(lamda.getsum(20, 39));
+  FrontendDeveloper john = FrontendDeveloper();
+  john.developerType();
+  john.developeFrontend();
+
+  BackendDeveloper marray = BackendDeveloper();
+  marray.developerType();
+  marray.developeBackend();
 }
