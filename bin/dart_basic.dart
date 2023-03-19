@@ -1,5 +1,6 @@
-import 'package:dart_basic/map.dart' as map;
+import 'package:dart_basic/lamda.dart' as lamda;
 
 void main(List<String> arguments) {
-  map.mapConstructor();
+  lamda.sayHit();
+  print(lamda.getsum(20, 39));
 }
