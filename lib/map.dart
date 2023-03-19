@@ -6,3 +6,13 @@ void mapLiterals() {
 
   print(map["name"]);
 }
+
+void mapConstructor() {
+  var map = {};
+
+  map[0] = "John Smith";
+  map[1] = "Software Engineer";
+  map.addAll(map);
+
+  print(map);
+}
