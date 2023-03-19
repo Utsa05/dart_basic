@@ -1,11 +1,5 @@
-import 'package:dart_basic/mixin.dart';
+import 'package:dart_basic/aync_await_future.dart';
 
-void main(List<String> arguments) {
-  FrontendDeveloper john = FrontendDeveloper();
-  john.developerType();
-  john.developeFrontend();
-
-  BackendDeveloper marray = BackendDeveloper();
-  marray.developerType();
-  marray.developeBackend();
+void main(List<String> arguments) async {
+  print(await createOrder());
 }
